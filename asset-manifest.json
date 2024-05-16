@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Exercise_Saal/static/css/main.2226f81c.css",
+    "main.js": "/Exercise_Saal/static/js/main.01437bfd.js",
+    "static/js/453.411fdc73.chunk.js": "/Exercise_Saal/static/js/453.411fdc73.chunk.js",
+    "index.html": "/Exercise_Saal/index.html",
+    "static/media/magnifying-glass.svg": "/Exercise_Saal/static/media/magnifying-glass.ff3259eff6971cf07dbc.svg",
+    "main.2226f81c.css.map": "/Exercise_Saal/static/css/main.2226f81c.css.map",
+    "main.01437bfd.js.map": "/Exercise_Saal/static/js/main.01437bfd.js.map",
+    "453.411fdc73.chunk.js.map": "/Exercise_Saal/static/js/453.411fdc73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2226f81c.css",
+    "static/js/main.01437bfd.js"
+  ]
+}
