@@ -1,5 +1,5 @@
 {
-  "homepage":"https://whodilawar.github.io/Exercise_Saal/",
+  "homepage": "https://whodilawar.github.io/Exercise_Saal/",
   "name": "react-todo-list",
   "description": "An interactive task board built with React and Redux.",
   "version": "1.0.0",
@@ -19,8 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
