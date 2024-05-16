@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import TaskBoard from './components/TaskBoard';
+import Header from './components/Header';
+import './styles/App.css';
+import { useAppDispatch } from './redux/app/hooks';
+import { getStoredTaskBoard } from './utils/localStorage';
+import { saveBoard } from './redux/features/task-board-slice';
 
 function App() {
+  const dispatch = useAppDispatch();
+  const existingTasks = getStoredTaskBoard();
+
+  if (existingTasks) {
+    dispatch(saveBoard(existingTasks));
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="task-board-reactapp">
+      <Header />
+      <TaskBoard />
     </div>
   );
 }
